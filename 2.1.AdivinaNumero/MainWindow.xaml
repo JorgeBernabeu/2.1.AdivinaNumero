@@ -5,33 +5,75 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_2._1.AdivinaNumero"
         mc:Ignorable="d"
-        Title="2.1.AdivinaNumero" Height="227.151" Width="347.419">
+        Title="AdivinaNumero"
+        Icon="assets/122.ico"
+        Height="227.151"
+        Width="347.419">
     <Grid Margin="0,0,2,1">
         <Grid.Background>
-            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                <GradientStop Color="#FFA4A4A4"/>
-                <GradientStop Color="#FF99E0D0" Offset="0.417"/>
+            <LinearGradientBrush EndPoint="0.5,1"
+                                 StartPoint="0.5,0">
+                <GradientStop Color="#FFA4A4A4" />
+                <GradientStop Color="#FF99E0D0"
+                              Offset="0.417" />
             </LinearGradientBrush>
         </Grid.Background>
-        <Label Content="Introduce un número a comprobar" HorizontalAlignment="Left" Margin="25,46,0,0" VerticalAlignment="Top" FontWeight="Bold" Foreground="#FFA4892B"/>
-        <TextBox x:Name="NombreTextBox" HorizontalAlignment="Left" Height="23" Margin="30,88,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
-        <Button x:Name="ComprobarButton" Content="Comprobar" HorizontalAlignment="Left" Margin="30,131,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click" BorderBrush="{x:Null}">
+        <Label Content="Introduce un número a comprobar"
+               HorizontalAlignment="Left"
+               Margin="25,46,0,0"
+               VerticalAlignment="Top"
+               FontWeight="Bold"
+               Foreground="#FFA4892B" />
+        <TextBox x:Name="NombreTextBox"
+                 HorizontalAlignment="Left"
+                 Height="23"
+                 Margin="30,88,0,0"
+                 TextWrapping="Wrap"
+                 Text=""
+                 VerticalAlignment="Top"
+                 Width="120" />
+        <Button x:Name="ComprobarButton"
+                Content="Comprobar"
+                HorizontalAlignment="Left"
+                Margin="30,131,0,0"
+                VerticalAlignment="Top"
+                Width="75"
+                Click="Button_Click"
+                BorderBrush="{x:Null}">
             <Button.Background>
-                <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
-                    <GradientStop Color="#FF94BCC5" Offset="1"/>
-                    <GradientStop Color="#FF8FD2C3"/>
+                <LinearGradientBrush EndPoint="0.5,1"
+                                     MappingMode="RelativeToBoundingBox"
+                                     StartPoint="0.5,0">
+                    <GradientStop Color="#FF94BCC5"
+                                  Offset="1" />
+                    <GradientStop Color="#FF8FD2C3" />
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button x:Name="ReiniciarButton" Content="Reiniciar" HorizontalAlignment="Left" Margin="130,131,0,0" VerticalAlignment="Top" Width="75" Click="ReiniciarButton_Click" BorderBrush="{x:Null}">
+        <Button x:Name="ReiniciarButton"
+                Content="Reiniciar"
+                HorizontalAlignment="Left"
+                Margin="130,131,0,0"
+                VerticalAlignment="Top"
+                Width="75"
+                Click="ReiniciarButton_Click"
+                BorderBrush="{x:Null}">
             <Button.Background>
-                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                    <GradientStop Color="#FF94BCC5" Offset="1"/>
-                    <GradientStop Color="#FF8FD2C3"/>
+                <LinearGradientBrush EndPoint="0.5,1"
+                                     StartPoint="0.5,0">
+                    <GradientStop Color="#FF94BCC5"
+                                  Offset="1" />
+                    <GradientStop Color="#FF8FD2C3" />
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <TextBlock x:Name="TextoMostrado" HorizontalAlignment="Left" Margin="177,88,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="23" Width="139"/>
+        <TextBlock x:Name="TextoMostrado"
+                   HorizontalAlignment="Left"
+                   Margin="177,88,0,0"
+                   TextWrapping="Wrap"
+                   VerticalAlignment="Top"
+                   Height="23"
+                   Width="139" />
 
     </Grid>
 </Window>
